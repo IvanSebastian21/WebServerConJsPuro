@@ -1,12 +1,12 @@
-# Beatles Page
+# Request sobre los Beatles
 
-Vamos a hacer una página usando los templates HTML que vimos en clase.
+Vamos a hacer una página usando los templates HTML.
 
-## Requisitos Básicos
+## Condiciones Básicas
 
 ### API
 
-1. Utiliza este arreglo con los integrantes de los Beatles:
+1. Se utiliza este arreglo con los integrantes de los Beatles:
 
 ```javascript
 var beatles=[{
@@ -32,23 +32,23 @@ var beatles=[{
 ]
 ```
 
-2. Crea la ruta "/api" que muestre el arreglo completo
+2. Se solicita a la ruta "/api" que muestra el arreglo completo
 
-3. Ahora en la ruta "/api/John%20Lennon" deberiamos ver solo el objeto de John
+3. Ahora en la ruta "/api/John%20Lennon" se puede ver solo el objeto de John
 
-4. Haz lo mismo con los otros beatles. Podemos hacer esto sin repetirnos en una misma ruta?
+4. Respuesta hacia los otros beatles. Sin repetir la misma ruta
 
 5. Si el usuario no entra un Beatle valido tiene que darle un error diciendo que la página no se encontro
 
 ### Html y templates
 
-1. Crea un `index.html` (usá bootstrap). Que tenga un header básico, y un jumbotron con un mensaje de bienvenida.
-En tu server, devolvé ese HTML cuando los usuarios vayan a la ruta `/`.
+1. `index.html` (uso de bootstrap). Header básico, y un jumbotron con un mensaje de bienvenida.
+En el server, devuelve un HTML cuando los usuarios vayan a la ruta `/`.
 
-2. Ahora crea un nuevo template en el cual ingresaremos un profile page de cada beatle, el titulo de la pagina y un h1 tiene que decir el nombre, un parrafo con la fecha de nacimiento y una imagen con la profilePic.
+2. Nuevo template en el cual ingresaremos un profile page de cada beatle, el titulo de la pagina y un h1 tiene que dice el nombre, un parrafo con la fecha de nacimiento y una imagen con la profilePic.
 
-> Podés usar el string replace como vimos en clases, en la carpeta `/demo` vas a encontrar los ejemplos.
+> Se usa el string replace.
 
-3. Crea una ruta en la cual si ponemos el nombre del Beatle nos muestre su profil page ej. "/Paul%20McCartney".  NO PISES TU RUTA DE API
+3. Ruta en la cual si ponemos el nombre del Beatle nos muestre su profil page ej. "/Paul%20McCartney".  No se pisa la ruta de la API.
 
-4. Terminaste? Fijate tu código esta muy desordenado? Te repetiste? Intenta refactorear tu codigo para que quede ordenado, intenta poner las tareas en funciones
+
