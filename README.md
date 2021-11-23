@@ -14,7 +14,7 @@ var http = require('http');
 var fs = require('fs');
 ```
 >El módulo del fs (file system) o sistema de archivos de Node.js nos permite trabajar con el sistema de archivos en nuestra computadora.
-Para incluir el módulo del sistema de archivos, usamos el require()método:  
+Para incluir el módulo fs, debemos usar require():  
 
 Más información: [HTTP](https://www.w3schools.com/nodejs/nodejs_filesystem.asp)
 
